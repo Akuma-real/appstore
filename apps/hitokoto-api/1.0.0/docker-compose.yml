@@ -1,0 +1,23 @@
+services:
+  hitokoto-api:
+    image: docker.cnb.cool/june-ink/hitokoto-api:latest
+    container_name: ${CONTAINER_NAME}
+    restart: unless-stopped
+    networks:
+      - 1panel-network
+    volumes:
+      - ./data/logs:/app/logs
+    ports:
+      - ${PANEL_APP_PORT_HTTP}:3000
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    labels:
+      createdBy: "Apps"
+
+networks:
+  1panel-network:
+    external: true

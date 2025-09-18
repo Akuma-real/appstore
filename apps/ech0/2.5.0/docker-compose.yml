@@ -1,0 +1,20 @@
+version: '3'
+services:
+  ech0:
+    image: sn0wl1n/ech0:latest
+    container_name: ${CONTAINER_NAME}
+    restart: unless-stopped
+    networks:
+      - 1panel-network
+    environment:
+      - JWT_SECRET=${PANEL_JWT_SECRET}
+    volumes:
+      - ./data:/app/data
+    ports:
+      - ${PANEL_APP_PORT_HTTP}:6277
+      - ${PANEL_APP_PORT_SSH}:6278
+    labels:
+      createdBy: "Apps"
+networks:
+  1panel-network:
+    external: true

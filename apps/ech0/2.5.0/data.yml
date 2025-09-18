@@ -1,0 +1,34 @@
+additionalProperties:
+  formFields:
+    - default: 6277
+      edit: true
+      envKey: PANEL_APP_PORT_HTTP
+      labelEn: HTTP Port
+      labelZh: HTTP 端口
+      description:
+        zh: 应用对外提供 Web 服务的端口，范围 1-65535
+        en: HTTP service port exposed by Ech0
+      required: true
+      rule: paramPort
+      type: number
+    - default: 6278
+      edit: true
+      envKey: PANEL_APP_PORT_SSH
+      labelEn: SSH Port
+      labelZh: SSH 端口
+      description:
+        zh: Ech0 内置 SSH/TUI 服务端口，用于终端管理
+        en: SSH/TUI port for Ech0 management
+      required: true
+      rule: paramPort
+      type: number
+    - default: ""
+      envKey: PANEL_JWT_SECRET
+      labelEn: JWT Secret
+      labelZh: JWT 密钥
+      description:
+        zh: 用于生成 JWT 的密钥，建议保留默认随机值或手动设置复杂字符串
+        en: Secret for JWT generation, keep random value or set a strong string
+      random: true
+      required: true
+      type: password

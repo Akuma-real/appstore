@@ -1,0 +1,34 @@
+name: Hitokoto API
+tags:
+  - 工具
+  - 自托管
+  - API 服务
+title: 开箱即用的一言 API 服务
+description: 轻量高性能的一言（Hitokoto）API，提供多分类随机语句能力，适合自托管使用
+additionalProperties:
+  key: hitokoto-api
+  name: Hitokoto API
+  type: tool
+  tags:
+    - Tool
+    - Local
+  shortDescZh: 轻量自托管的一言 API 服务
+  shortDescEn: Lightweight self-hosted Hitokoto API service
+  description:
+    zh: 轻量高性能的一言（Hitokoto）API，支持多分类语句随机返回，适合自托管部署和扩展
+    zh-hant: 輕量高效的一言（Hitokoto）API，支援多分類語句隨機回傳，適合自託管部署與擴充
+    en: Lightweight and performant Hitokoto quote API with multi-category support for self-hosted deployments.
+    ja: 軽量で高速な一言（Hitokoto）API。複数カテゴリのランダムな名言取得をサポートし、セルフホストに最適です。
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 30
+  website: https://github.com/June-Ink/hitokoto-api
+  github: https://github.com/June-Ink/hitokoto-api
+  document: https://github.com/June-Ink/hitokoto-api#readme
+  memoryRequired: 256
+  architectures:
+    - amd64
+    - arm64
+  gpuSupport: false
+  version: 0
+  deprecated: 0

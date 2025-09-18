@@ -1,0 +1,11 @@
+formFields:
+  - type: "number"
+    labelZh: "HTTP 端口"
+    labelEn: "HTTP Port"
+    description:
+      zh: "设置服务对外提供 API 的主机端口，范围 1-65535"
+      en: "Host port exposed for the API service, valid range 1-65535"
+    required: true
+    envKey: "PANEL_APP_PORT_HTTP"
+    default: 5203
+    rule: "ports"
