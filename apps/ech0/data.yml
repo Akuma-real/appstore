@@ -10,10 +10,8 @@ additionalProperties:
   tags:
     - Website
   shortDescZh: 轻量化开源自托管创作平台
-  shortDescEn: Lightweight self-hosted publishing platform
   description:
     zh: 专注思想流动的开源自托管发布平台，支持多端访问与丰富内容分享
-    en: Lightweight self-hosted publishing platform designed for fast idea sharing
   crossVersionUpdate: true
   limit: 0
   recommend: 20

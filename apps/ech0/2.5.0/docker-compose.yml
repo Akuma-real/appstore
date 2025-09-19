@@ -1,7 +1,7 @@
 version: '3'
 services:
   ech0:
-    image: sn0wl1n/ech0:latest
+    image: sn0wl1n/ech0:2.5.0
     container_name: ${CONTAINER_NAME}
     restart: unless-stopped
     networks:

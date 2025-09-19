@@ -13,16 +13,8 @@ additionalProperties:
     - Security
     - DevOps
   shortDescZh: 自托管证书自动化运维平台
-  shortDescEn: Self-hosted certificate automation platform
   description:
     zh: 自托管的 SSL/TLS 证书申请与续期平台，提供工作流自动化和多云集成能力
-    zh-hant: 自託管的 SSL/TLS 證書申請與續期平台，提供工作流自動化和多雲整合能力
-    en: Self-hosted SSL/TLS certificate automation platform with workflow orchestration and multi-provider integrations.
-    ja: ワークフロー自動化とマルチプロバイダー連携を備えたセルフホスト型 SSL/TLS 証明書管理プラットフォーム。
-    ms: Platform automasi sijil SSL/TLS self-hosted dengan orkestrasi aliran kerja dan integrasi pelbagai penyedia.
-    pt-br: Plataforma self-hosted para automatizar certificados SSL/TLS com orquestração de fluxos e integrações multi-provedores.
-    ru: Самостоятельная платформа автоматизации SSL/TLS сертификатов с оркестрацией процессов и интеграцией с множеством провайдеров.
-    ko: 워크플로 자동화와 다중 프로바이더 연동을 지원하는 셀프 호스팅 SSL/TLS 인증서 관리 플랫폼입니다.
   crossVersionUpdate: true
   limit: 0
   recommend: 40

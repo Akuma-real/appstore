@@ -13,12 +13,8 @@ additionalProperties:
     - Tool
     - Local
   shortDescZh: 轻量自托管的一言 API 服务
-  shortDescEn: Lightweight self-hosted Hitokoto API service
   description:
     zh: 轻量高性能的一言（Hitokoto）API，支持多分类语句随机返回，适合自托管部署和扩展
-    zh-hant: 輕量高效的一言（Hitokoto）API，支援多分類語句隨機回傳，適合自託管部署與擴充
-    en: Lightweight and performant Hitokoto quote API with multi-category support for self-hosted deployments.
-    ja: 軽量で高速な一言（Hitokoto）API。複数カテゴリのランダムな名言取得をサポートし、セルフホストに最適です。
   crossVersionUpdate: true
   limit: 0
   recommend: 30

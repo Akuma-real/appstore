@@ -3,20 +3,19 @@ additionalProperties:
     - default: 8090
       edit: true
       envKey: PANEL_APP_PORT_HTTP
-      labelEn: HTTP Port
       labelZh: HTTP 端口
-      label:
-        en: HTTP Port
-        ja: ポート
-        ms: Port
-        pt-br: Porta HTTP
-        ru: HTTP Порт
-        ko: HTTP 포트
-        zh: HTTP 端口
-        zh-Hant: HTTP 連接埠
       description:
         zh: 设置 Certimate Web 管理端的访问端口，范围 1-65535
-        en: Configure the HTTP port exposed by Certimate, valid range 1-65535
       required: true
       rule: paramPort
       type: number
+    - default: "certimate"
+      envKey: CONTAINER_NAME
+      labelZh: 容器名称
+      description:
+        zh: 容器名称，通常保持默认值即可
+      required: true
+      edit: false
+      random: false
+      rule: paramCommon
+      type: text

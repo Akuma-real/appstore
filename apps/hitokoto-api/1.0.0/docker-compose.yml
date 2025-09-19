@@ -1,6 +1,6 @@
 services:
   hitokoto-api:
-    image: docker.cnb.cool/june-ink/hitokoto-api:latest
+    image: docker.cnb.cool/june-ink/hitokoto-api:1.0.0
     container_name: ${CONTAINER_NAME}
     restart: unless-stopped
     networks:

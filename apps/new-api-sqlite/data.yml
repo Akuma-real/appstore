@@ -1,0 +1,26 @@
+name: New API (SQLite)
+tags: 开发工具
+title: 轻量 API 服务（SQLite 持久化）
+description: 基于 calciumion/new-api 的轻量 REST API 服务，内置 SQLite 存储
+additionalProperties:
+  key: new-api-sqlite
+  name: New API (SQLite)
+  type: website
+  tags:
+    - DevTool
+  shortDescZh: 轻量 REST API 服务，SQLite 持久化
+  description:
+    zh: 轻量 REST API 服务，使用 SQLite 持久化数据，开箱即用
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 9999
+  website: https://github.com/QuantumNous/new-api
+  github: https://github.com/QuantumNous/new-api
+  document: https://github.com/QuantumNous/new-api#readme
+  memoryRequired: 256
+  architectures:
+    - amd64
+    - arm64
+  gpuSupport: false
+  version: 0
+  deprecated: 0

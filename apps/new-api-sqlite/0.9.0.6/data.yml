@@ -1,0 +1,36 @@
+formFields:
+  - type: "number"
+    labelZh: "端口"
+    description:
+      zh: "设置应用的 HTTP 访问端口，有效范围：1-65535"
+    required: true
+    envKey: "PANEL_APP_PORT_HTTP"
+    default: 5300
+    rule: "ports"
+
+  - type: "text"
+    labelZh: "应用名称"
+    required: true
+    envKey: "APP_NAME"
+    default: "new-api-sqlite"
+    edit: false
+    random: false
+
+  - type: "text"
+    labelZh: "时区"
+    description:
+      zh: "容器时区，默认 Asia/Shanghai"
+    required: true
+    envKey: "TZ"
+    default: "Asia/Shanghai"
+
+  - type: "text"
+    labelZh: "容器名称"
+    description:
+      zh: "容器名称，通常保持默认值即可"
+    required: true
+    envKey: "CONTAINER_NAME"
+    default: "new-api-sqlite"
+    edit: false
+    random: false
+    rule: "paramCommon"
