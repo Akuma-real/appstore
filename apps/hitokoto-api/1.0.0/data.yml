@@ -6,7 +6,7 @@ formFields:
     required: true
     envKey: "PANEL_APP_PORT_HTTP"
     default: 5203
-    rule: "ports"
+    rule: "paramPort"
   - type: "text"
     labelZh: "容器名称"
     description:
